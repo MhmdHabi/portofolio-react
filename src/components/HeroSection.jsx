@@ -39,7 +39,7 @@ const Home = () => {
           <h4 className="text-xl md:text-3xl font-bold mb-4">
             And I'm <span id="text" className="text-red-700"></span>
           </h4>
-          <p className="text-lg mb-8 md:text-justify ">
+          <p className="text-lg mb-8 md:text-justify font-roboto">
             Active student in Semester 6 of the Information Engineering Undergraduate Study Program at Dinamika Bangsa University in 2021. Has programming and web development skills using various languages and frameworks.
           </p>
 

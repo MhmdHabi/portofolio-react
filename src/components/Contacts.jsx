@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="px-5 md:px-8 py-16 bg-gradient-to-r from-gray-800 via-black to-gray-900 text-white">
       <div className="container mx-auto px-6">
         {/* Contact Header */}
-        <motion.h2 className="text-4xl font-bold mb-8 text-center text-white" initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeOut" }}>
+        <motion.h2 className="text-4xl font-bold mb-8 text-center font-roboto text-white" initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeOut" }}>
           Contact Us
         </motion.h2>
 
