@@ -15,7 +15,7 @@ const AboutUs = () => {
           {/* Description */}
           <div className="md:w-1/2 md:pr-6 flex flex-col md:items-start items-center">
             <h2 className="text-3xl font-semibold mb-4 ">About Us</h2>
-            <p className="text-lg text-center">
+            <p className="text-lg text-center md:text-justify">
               Active student in Semester 5 of the Information Engineering Undergraduate Study Program at Dinamika Bangsa University in 2021. Has programming and web development skills using various languages ​​and frameworks. I live in
               Jambi City, Sarolangun Regency
             </p>
