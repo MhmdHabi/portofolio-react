@@ -51,7 +51,9 @@ const Navbar = () => {
               to={section}
               smooth={true}
               duration={500}
-              className={`font-roboto font-semibold cursor-pointer px-4 py-2 transition-colors duration-150 ${activeSection === section ? "bg-white text-black rounded-lg" : "text-white hover:text-gray-300"}`}
+              className={`font-roboto font-semibold cursor-pointer px-4 py-2 transition-colors duration-150 ${
+                activeSection === section ? "bg-gradient-to-r from-red-800 via-red-500 to-red-400 text-white rounded-lg" : "text-white hover:text-gray-300"
+              }`}
               onClick={() => setActiveSection(section)}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}

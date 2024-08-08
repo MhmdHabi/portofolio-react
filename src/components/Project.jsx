@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { FaLaravel } from "react-icons/fa";
+import { FaLaravel, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiDart } from "react-icons/si";
 
 const projects = [
@@ -9,7 +9,7 @@ const projects = [
     title: "Project Siakad Kampus Merdeka",
     description: "Membuat aplikasi sistem informasi akademik (SIAKAD) dengan menggunakan framework laravel, dengan 3 aktor yaitu admin, mahasiswa, dan dosen.",
     category: "Web Development",
-    link: "#",
+    link: "https://github.com/MhmdHabi/final-project-laravel",
     tech: ["Laravel", "Tailwind"],
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     title: "Website Sosial Media",
     description: "Aplikasi ini merupakan aplikasi sosial media dimana user bisa upload postingan, like, memberikan komentar, bisa juga melakukan bookmark dan juga user bisa melakukan follow.",
     category: "Web Development",
-    link: "#",
+    link: "https://github.com/MhmdHabi/mini-project",
     tech: ["Laravel", "Tailwind"],
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     description:
       "Website Point of Sales (POS) ini menawarkan solusi efisien dan intuitif untuk pencatatan penjualan bisnis. Dirancang menggunakan Laravel 10 untuk kekuatan backend dan Bootstrap 5 untuk desain responsif, sistem ini memungkinkan pengguna untuk dengan mudah mencatat transaksi penjualan, mengelola produk, dan menghasilkan laporan penjualan yang komprehensif.",
     category: "Web Development",
-    link: "#",
+    link: "https://github.com/MhmdHabi/Website-POS-shanum",
     tech: ["Laravel", "Tailwind"],
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     description:
       "Shanum Bakery adalah website informasi dan penjualan yang dirancang untuk memberikan pengalaman pengguna yang mulus dan menyenangkan. Dengan tema yang bersih dan modern, situs ini dirancang menggunakan Laravel 10 dan Tailwind CSS, memastikan performa yang cepat dan antarmuka yang responsif.",
     category: "Web Development",
-    link: "#",
+    link: "https://github.com/MhmdHabi/website-shanum-bakery",
     tech: ["Laravel", "Tailwind"],
   },
 ];
@@ -84,7 +84,17 @@ const Projects = () => {
               transition={{ duration: 0.8, ease: "easeOut", delay: index * 0.2 }}
               viewport={{ once: true }}
             >
-              <img src={src} alt={title} className="w-full h-48 object-cover" />
+              <div className="relative group">
+                <img src={src} alt={title} className="w-full h-48 object-cover" />
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transform translate-y-10 group-hover:translate-y-0 transition-transform duration-300 ease-out"
+                >
+                  <FaGithub className="text-white text-4xl" />
+                </a>
+              </div>
               <div className="flex flex-col flex-grow p-6">
                 <h3 className="text-xl font-semibold mb-2 font-roboto">{title}</h3>
                 <div className="flex flex-wrap items-center mb-2 space-x-2">

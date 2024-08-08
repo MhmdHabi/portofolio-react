@@ -12,6 +12,7 @@ const skills = [
   { src: "/assets/mysql.png", alt: "MySQL", name: "MySQL" },
   { src: "/assets/react.png", alt: "React Js", name: "React Js" },
   { src: "/assets/postman.png", alt: "Postman", name: "Postman" },
+  { src: "/assets/github.png", alt: "Github", name: "Github" },
 ];
 
 const Skills = () => {

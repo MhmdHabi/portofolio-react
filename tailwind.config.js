@@ -5,7 +5,6 @@ export default {
     extend: {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
-        playfair: ["Playfair Display", "serif"],
       },
     },
   },
