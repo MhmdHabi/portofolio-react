@@ -24,7 +24,7 @@ const socialMediaLinks = [
   },
   {
     icon: <FaTiktok className="text-black text-4xl" />,
-    link: "https://www.tiktok.com/@enakbet?_t=8oip50IbDwQ&_r=1",
+    link: "https://www.tiktok.com/@mhmdhabi_?_t=8oiuBoXIfYe&_r=1",
     name: "TikTok",
     description: "Follow us on TikTok for fun and engaging content.",
   },
