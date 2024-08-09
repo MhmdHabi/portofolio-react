@@ -52,7 +52,7 @@ const projects = [
     description:
       "Website ecommerce DarkMoon adalah website yang dirancang menggunakan React Js dan Tailwind CSS. Dengan tema yang menarik dan responsif, situs ini memungkinkan pengguna untuk menemukan produk yang sesuai dengan kebutuhan mereka.",
     category: "Web Development",
-    link: "https://github.com/MhmdHabi/website-shanum-bakery",
+    link: "https://github.com/MhmdHabi/web-ecommerce-darkmoon",
     tech: ["React", "Tailwind"],
   },
 ];
