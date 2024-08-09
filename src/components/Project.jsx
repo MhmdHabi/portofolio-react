@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { FaLaravel, FaGithub, FaProjectDiagram } from "react-icons/fa";
-import { SiTailwindcss, SiDart } from "react-icons/si";
+import { SiTailwindcss, SiDart, SiReact } from "react-icons/si";
 
 const projects = [
   {
@@ -46,12 +46,22 @@ const projects = [
     link: "https://github.com/MhmdHabi/website-shanum-bakery",
     tech: ["Laravel", "Tailwind"],
   },
+  {
+    src: "/assets/ecommerce.png",
+    title: "Website ecommerce DarkMoon",
+    description:
+      "Website ecommerce DarkMoon adalah website yang dirancang menggunakan React Js dan Tailwind CSS. Dengan tema yang menarik dan responsif, situs ini memungkinkan pengguna untuk menemukan produk yang sesuai dengan kebutuhan mereka.",
+    category: "Web Development",
+    link: "https://github.com/MhmdHabi/website-shanum-bakery",
+    tech: ["React", "Tailwind"],
+  },
 ];
 
 const techIcons = {
   Laravel: <FaLaravel className="text-red-600" />,
   Tailwind: <SiTailwindcss className="text-blue-400" />,
   Dart: <SiDart className="text-blue-600" />,
+  React: <SiReact className="text-blue-500" />,
 };
 
 const Projects = () => {
