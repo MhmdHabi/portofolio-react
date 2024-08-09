@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaStar } from "react-icons/fa";
 
 const skills = [
   { src: "/assets/html.png", alt: "HTML", name: "HTML" },
@@ -18,11 +19,14 @@ const skills = [
 const Skills = () => {
   return (
     <div className="px-4 md:px-8 py-16 bg-gradient-to-r from-gray-700 via-black to-gray-900 text-white">
-      <div className="container mx-auto px-6">
-        {/* Skills Header */}
-        <h2 className="text-3xl font-bold mb-8 text-center text-white font-roboto">Skills</h2>
+      <div className="container mx-auto px-6 md:mt-5">
+        {/* Skills Header with Icon */}
+        <h2 className="text-3xl font-bold mb-8 text-center text-white font-roboto flex items-center justify-center space-x-2">
+          <FaStar className="text-yellow-400 text-3xl" />
+          <span>Skills</span>
+        </h2>
 
-        {/* Grid for Skill Logos */}
+        {/* Grid  */}
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6">
           {skills.map(({ src, alt, name }, index) => (
             <motion.div

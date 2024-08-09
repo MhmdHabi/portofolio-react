@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Project";
 import Contact from "./components/Contacts";
 import "./index.css";
+import Education from "./components/Educations";
 
 function App() {
   return (
@@ -33,6 +34,10 @@ function App() {
 
         <section id="projects">
           <Projects />
+        </section>
+
+        <section id="education">
+          <Education />
         </section>
 
         <section id="contact">

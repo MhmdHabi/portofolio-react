@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaEye } from "react-icons/fa";
+import { FaEye, FaCertificate } from "react-icons/fa";
 
 const certificates = [
   { src: "/assets/serti1.png", alt: "Certificate 1", link: "https://www.dicoding.com/certificates/MEPJY8EO4P3V" },
@@ -16,9 +16,12 @@ const certificates = [
 const Certificate = () => {
   return (
     <div className="px-10 md:px-14 bg-black text-white min-h-screen py-16 flex flex-col items-center">
-      <div className="container mx-auto">
-        {/* Certificate Header */}
-        <h2 className="text-3xl font-bold mb-8 text-center text-white font-roboto">Certificates</h2>
+      <div className="container mx-auto md:mt-5">
+        {/* Certificate Header with Icon */}
+        <h2 className="text-3xl font-bold mb-8 text-center text-white font-roboto flex items-center justify-center space-x-2">
+          <FaCertificate className="text-yellow-400 text-3xl" />
+          <span>Certificates</span>
+        </h2>
 
         {/* Grid for Certificate Images */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

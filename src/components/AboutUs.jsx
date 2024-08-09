@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaUser } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
@@ -14,10 +15,13 @@ const AboutUs = () => {
 
           {/* Description */}
           <div className="md:w-1/2 md:pr-6 flex flex-col md:items-start items-center">
-            <h2 className="text-3xl font-semibold mb-4 font-roboto">About Me</h2>
+            <h2 className="text-3xl font-semibold mb-4 flex items-center space-x-2 font-roboto">
+              <FaUser className="text-yellow-400 text-3xl" />
+              <span>About Me</span>
+            </h2>
             <p className="text-lg text-center md:text-justify font-roboto">
-              Active student in Semester 5 of the Information Engineering Undergraduate Study Program at Dinamika Bangsa University in 2021. Has programming and web development skills using various languages ​​and frameworks. I live in
-              Jambi City, Sarolangun Regency
+              Active student in Semester 5 of the Information Engineering Undergraduate Study Program at Dinamika Bangsa University in 2021. Has programming and web development skills using various languages and frameworks. I live in Jambi
+              City, Sarolangun Regency
             </p>
           </div>
         </motion.section>

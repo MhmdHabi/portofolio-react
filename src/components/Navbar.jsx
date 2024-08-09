@@ -16,7 +16,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "certificate", "skills", "projects", "contact"];
+      const sections = ["home", "about", "certificate", "skills", "projects", "education", "contact"];
       const scrollPosition = window.scrollY;
 
       sections.forEach((section) => {
@@ -39,13 +39,13 @@ const Navbar = () => {
     <nav className="bg-black bg-opacity-70 fixed w-full top-0 left-0 py-4 px-10 md:px-14 z-50 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         {/* Title with Link */}
-        <ScrollLink to="home" smooth={true} duration={500} className="text-white text-2xl font-bold flex items-center cursor-pointer" onClick={() => setActiveSection("home")}>
-          My <span className="bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent">Portfolio</span>
+        <ScrollLink to="home" smooth={true} duration={500} className="cursor-pointer" onClick={() => setActiveSection("home")}>
+          <img src="/assets/logo.png" alt="Portfolio Title" className="w-20" />
         </ScrollLink>
 
         {/* Desktop Navigation Links */}
-        <div className="hidden lg:flex space-x-6">
-          {["home", "about", "certificate", "skills", "projects", "contact"].map((section) => (
+        <div className="hidden lg:flex space-x-4">
+          {["home", "about", "certificate", "skills", "projects", "education", "contact"].map((section) => (
             <ScrollLink
               key={section}
               to={section}
@@ -84,7 +84,7 @@ const Navbar = () => {
           <button onClick={closeMenu} className="absolute top-4 right-4 text-white text-3xl">
             <FaTimes />
           </button>
-          {["home", "about", "certificate", "skills", "projects", "contact"].map((section) => (
+          {["home", "about", "certificate", "skills", "projects", "education", "contact"].map((section) => (
             <ScrollLink
               key={section}
               to={section}

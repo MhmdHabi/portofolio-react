@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { FaLaravel, FaGithub } from "react-icons/fa";
+import { FaLaravel, FaGithub, FaProjectDiagram } from "react-icons/fa";
 import { SiTailwindcss, SiDart } from "react-icons/si";
 
 const projects = [
@@ -69,9 +69,12 @@ const Projects = () => {
 
   return (
     <div className="px-5 md:px-8 py-16 bg-black text-white">
-      <div className="container mx-auto px-6">
-        {/* Project Header */}
-        <h2 className="text-3xl font-bold mb-8 text-center text-white font-roboto">Projects</h2>
+      <div className="container mx-auto px-6 md:mt-5">
+        {/* Project Header with Icon */}
+        <h2 className="text-3xl font-bold mb-8 text-center text-white font-roboto flex items-center justify-center space-x-2">
+          <FaProjectDiagram className="text-blue-500 text-3xl" />
+          <span>Projects</span>
+        </h2>
 
         {/* Grid for Project Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
