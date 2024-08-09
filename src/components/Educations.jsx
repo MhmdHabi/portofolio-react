@@ -57,7 +57,7 @@ const Education = () => {
 
   return (
     <div className="px-5 md:px-8 py-16 bg-black text-white">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto">
         {/* Section Header */}
         <motion.div initial={{ opacity: 0, y: 50 }} animate={headerControls} transition={{ duration: 0.8 }} className="text-center mb-12">
           <div className="flex items-center justify-center mb-6">
