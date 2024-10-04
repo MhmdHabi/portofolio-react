@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaEye, FaCertificate } from "react-icons/fa";
+import SparklesText from "./ui/sparkles-text";
 
 const certificates = [
   { src: "/assets/serti1.png", alt: "Certificate 1", link: "https://www.dicoding.com/certificates/MEPJY8EO4P3V" },
@@ -20,7 +21,7 @@ const Certificate = () => {
         {/* Certificate Header with Icon */}
         <h2 className="text-3xl font-bold mb-8 text-center text-white font-roboto flex items-center justify-center space-x-2">
           <FaCertificate className="text-yellow-400 text-3xl" />
-          <span>Certificates</span>
+          <SparklesText text="Certificates" />
         </h2>
 
         {/* Grid for Certificate Images */}

@@ -10,6 +10,7 @@ import Projects from "./components/Project";
 import Contact from "./components/Contacts";
 import "./index.css";
 import Education from "./components/Educations";
+import ScrollBasedVelocity from "./components/ScrollBasedVelocity";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
       <div>
         <section id="home">
           <HeroSection />
+        </section>
+
+        <section>
+          <ScrollBasedVelocity />
         </section>
 
         <section id="about">

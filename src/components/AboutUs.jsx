@@ -4,7 +4,7 @@ import { FaUser } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
-    <div className="px-6 bg-gradient-to-r from-gray-700 via-black to-gray-900 text-white md:min-h-screen py-20 flex flex-col items-center md:justify-center">
+    <div className="px-6 relative  bg-black to-gray-900 text-white md:min-h-screen py-20 flex flex-col items-center md:justify-center">
       <div className="container mx-auto px-6">
         {/* Content Section */}
         <motion.section initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeOut" }} className="flex flex-col md:flex-row items-center">
