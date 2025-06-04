@@ -63,7 +63,7 @@ const Navbar = () => {
 
         {/* Button Download CV */}
         <a
-          href="https://drive.google.com/file/d/1F6bz9EpnCRd-eaj-UYLVsaasBROZmuFk/view?usp=sharing"
+          href="https://drive.google.com/file/d/15C7lhkmuJqgY2XUP0hGeVq-b1JIedhGI/view?usp=sharing"
           className="hidden lg:flex items-center px-4 py-2 bg-gradient-to-r from-black via-red-700 to-red-400 text-white rounded hover:opacity-90 transition"
         >
           <FaDownload className="mr-2" />

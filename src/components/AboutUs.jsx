@@ -20,8 +20,9 @@ const AboutUs = () => {
               <span>About Me</span>
             </h2>
             <p className="text-lg text-center md:text-justify font-roboto">
-              Active student in Semester 5 of the Information Engineering Undergraduate Study Program at Dinamika Bangsa University in 2021. Has programming and web development skills using various languages and frameworks. I live in Jambi
-              City, Sarolangun Regency
+              Saya merupakan lulusan Sarjana (S1) Teknik Informatika dari Universitas Dinamika Bangsa Jambi yang memiliki ketertarikan dan minat besar di bidang web development, khususnya sebagai Fullstack Developer. Saya memiliki kemampuan
+              dalam bahasa pemrograman PHP dan JavaScript, serta menguasai framework seperti Laravel untuk backend dan React JS untuk frontend. Selain memiliki keahlian teknis, saya juga terbiasa bekerja dalam tim dan menjunjung tinggi
+              kolaborasi untuk mencapai tujuan bersama.
             </p>
           </div>
         </motion.section>

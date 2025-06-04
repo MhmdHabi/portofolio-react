@@ -40,7 +40,8 @@ const Home = () => {
             And I'm <span id="text" className="text-red-700"></span>
           </h4>
           <p className="text-lg mb-8 md:text-justify font-roboto">
-            Active student in Semester 6 of the Information Engineering Undergraduate Study Program at Dinamika Bangsa University in 2021. Has programming and web development skills using various languages and frameworks.
+            Saya adalah lulusan S1 Teknik Informatika dari Universitas Dinamika Bangsa Jambi dengan minat besar di bidang web development sebagai Fullstack Developer. Menguasai PHP, JavaScript, serta framework Laravel dan React JS. Terbiasa
+            bekerja dalam tim dan siap berkontribusi secara profesional dalam pengembangan aplikasi web dan solusi TI inovatif.
           </p>
 
           {/* Social Media Links */}

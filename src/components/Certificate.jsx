@@ -12,6 +12,9 @@ const certificates = [
   { src: "/assets/serti6.png", alt: "Certificate 6", link: "https://www.dicoding.com/certificates/07Z6WKV72ZQR" },
   { src: "/assets/serti7.png", alt: "Certificate 7", link: "https://drive.google.com/file/d/14sQWjmeJtadUkoK0fvNvrWHZxmgId5Zg/view?usp=drive_link" },
   { src: "/assets/serti8.png", alt: "Certificate 8", link: "https://drive.google.com/file/d/1peaptQTKcEuo-jQ1r7UTMMlbOvCcE0br/view?usp=sharing" },
+  { src: "/assets/serti9.png", alt: "Certificate 9", link: "https://drive.google.com/file/d/1rCVLqNx7WUcNQt9Rs_wDaH9yXFZWq5wM/view?usp=sharing" },
+  { src: "/assets/serti10.png", alt: "Certificate 10", link: "https://drive.google.com/file/d/1qNIXLsStD-BHyigG7YHF-DV2biClaSbf/view?usp=sharing" },
+  { src: "/assets/serti11.png", alt: "Certificate 11", link: "https://www.dicoding.com/certificates/QLZ9VRJVEX5D" },
 ];
 
 const Certificate = () => {

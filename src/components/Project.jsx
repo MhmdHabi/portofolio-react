@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { FaLaravel, FaGithub, FaProjectDiagram } from "react-icons/fa";
-import { SiTailwindcss, SiDart, SiReact } from "react-icons/si";
+import { SiTailwindcss, SiDart, SiReact, SiExpress, SiMongodb, SiMysql } from "react-icons/si";
 
 const projects = [
   {
@@ -10,7 +10,7 @@ const projects = [
     description: "Membuat aplikasi sistem informasi akademik (SIAKAD) dengan menggunakan framework laravel, dengan 3 aktor yaitu admin, mahasiswa, dan dosen.",
     category: "Web Development",
     link: "https://github.com/MhmdHabi/final-project-laravel",
-    tech: ["Laravel", "Tailwind"],
+    tech: ["Laravel", "Tailwind", "Mysql"],
   },
   {
     src: "/assets/sosmed.png",
@@ -18,7 +18,7 @@ const projects = [
     description: "Aplikasi ini merupakan aplikasi sosial media dimana user bisa upload postingan, like, memberikan komentar, bisa juga melakukan bookmark dan juga user bisa melakukan follow.",
     category: "Web Development",
     link: "https://github.com/MhmdHabi/mini-project",
-    tech: ["Laravel", "Tailwind"],
+    tech: ["Laravel", "Tailwind", "Mysql"],
   },
   {
     src: "/assets/wonderind.jpeg",
@@ -35,7 +35,7 @@ const projects = [
       "Website Point of Sales (POS) ini menawarkan solusi efisien dan intuitif untuk pencatatan penjualan bisnis. Dirancang menggunakan Laravel 10 untuk kekuatan backend dan Bootstrap 5 untuk desain responsif, sistem ini memungkinkan pengguna untuk dengan mudah mencatat transaksi penjualan, mengelola produk, dan menghasilkan laporan penjualan yang komprehensif.",
     category: "Web Development",
     link: "https://github.com/MhmdHabi/Website-POS-shanum",
-    tech: ["Laravel", "Tailwind"],
+    tech: ["Laravel", "Tailwind", "Mysql"],
   },
   {
     src: "/assets/bakery.png",
@@ -44,7 +44,7 @@ const projects = [
       "Shanum Bakery adalah website informasi dan penjualan yang dirancang untuk memberikan pengalaman pengguna yang mulus dan menyenangkan. Dengan tema yang bersih dan modern, situs ini dirancang menggunakan Laravel 10 dan Tailwind CSS, memastikan performa yang cepat dan antarmuka yang responsif.",
     category: "Web Development",
     link: "https://github.com/MhmdHabi/website-shanum-bakery",
-    tech: ["Laravel", "Tailwind"],
+    tech: ["Laravel", "Tailwind", "Mysql"],
   },
   {
     src: "/assets/ecommerce.png",
@@ -55,6 +55,24 @@ const projects = [
     link: "https://github.com/MhmdHabi/web-ecommerce-darkmoon",
     tech: ["React", "Tailwind"],
   },
+  {
+    src: "/assets/gigi.png",
+    title: "Website Survei Gigi",
+    description:
+      "Website Survei Gigi adalah platform digital yang menyediakan fitur survei kondisi gigi, di mana pengguna dapat mengisi formulir untuk mengetahui kondisi kesehatan gigi mereka. Setelah menyelesaikan survei, pengguna dapat langsung melihat hasil analisis survei yang memberikan gambaran awal tentang kesehatan gigi. Selain itu, website ini juga menyediakan berbagai artikel informatif seputar kesehatan gigi dan mulut untuk menambah wawasan dan menunjang perawatan gigi secara mandiri.",
+    category: "Web Development",
+    link: "",
+    tech: ["Laravel", "Tailwind", "Mysql"],
+  },
+  {
+    src: "/assets/shanum.png",
+    title: "Website Shanum Bakery",
+    description:
+      "Website Shanum Bakery adalah sebuah website yang berisi landing page untuk memperkenalkan produk-produk roti dan kue dari Shanum Bakery. Landing page ini dirancang dengan tampilan menarik dan responsif, menampilkan informasi seputar produk, promo, dan identitas brand untuk menarik minat pengunjung.",
+    category: "Web Development",
+    link: "",
+    tech: ["React", "Tailwind"],
+  },
 ];
 
 const techIcons = {
@@ -62,6 +80,9 @@ const techIcons = {
   Tailwind: <SiTailwindcss className="text-blue-400" />,
   Dart: <SiDart className="text-blue-600" />,
   React: <SiReact className="text-blue-500" />,
+  Express: <SiExpress className="text-yellow-500" />,
+  Mongo: <SiMongodb className="text-green-500" />,
+  Mysql: <SiMysql className="text-blue-400" />,
 };
 
 const Projects = () => {

@@ -37,7 +37,7 @@ const Education = () => {
   const educationData = [
     {
       title: "University of National Dynamics",
-      date: "2021 - present",
+      date: "2021 - 2025",
       description: "Study various aspects of computer science, including algorithms, data structures, software engineering, web programming and computer networks.",
     },
     {
@@ -50,8 +50,14 @@ const Education = () => {
   const experienceData = [
     {
       title: "Study of independent web developer PT Amanah Karya Indonesia",
-      date: "2024",
+      date: "February - June 2024",
       description: "During this program, I learned the latest technologies and tools in web development, including HTML, CSS, JavaScript, and frameworks like Laravel.",
+    },
+    {
+      title: "Study of independent Frontend and backend development Dicoding Indonesia",
+      date: "September - December 2024",
+      description:
+        "Participant of the Independent Study Program at Dicoding Indonesia - Frontend & Backend Development. Learned JavaScript ES6, React JS, Express JS, and the Frontend Web Expert module. This program strengthened my skills in building modern web applications from both the frontend and backend sides.",
     },
   ];
 
